@@ -558,7 +558,7 @@ async def vemorr(message: types.Message, state: FSMContext):
 # /payed
 @dp.message_handler(commands='payed', state='*')
 async def payed(message: types.Message, state: FSMContext):
-    if message.from_user.id == 640612893:
+    if message.from_user.id == 820155462
         await state.finish()
 
         args = message.get_args()

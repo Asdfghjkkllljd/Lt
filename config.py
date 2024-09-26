@@ -2,7 +2,7 @@ TOKEN = "7405917761:AAEixpXB4VrRPrsS1Dxr70pdFvYEFw_BJkM" # Токен бота
 CHANNEL_ID = -1002129853604 # ID канала со ставками
 ADMINS = [820155462] # ID админов
 BET_URL = "t.me/send?start=IVt6Y9BwxHfU" # Ссылка на счет
-CRYPTOPAY_TOKEN = "274259:AAk9ZFy2knrnJsakcnCcz0VWmCZlGVbJKR6" # Тут CryptoPay токен
+CRYPTOPAY_TOKEN = "274828:AA5Om4cCBugfm3nOiOvM23IN0fjztLbbwW1" # Тут CryptoPay токен
 WIN_IMAGE = "win.jpg" # Название файла с картинкой выигрыша
 LOSE_IMAGE = "lose.jpg" # Название файла с картинкой проигрыша
 LOGS_ID = -1002195516136 # ID канала с оплатами

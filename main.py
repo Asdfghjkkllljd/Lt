@@ -205,7 +205,7 @@ async def convert(amount_usd):
             rate = data['rate']
             amount_rub = float(amount_usd) * float(rate)
     return amount_rub
-@dp.message_handler(commands=["mon"])
+@dp.message_handler(commands=["dkxkxkdkdkskaoqppqoakakskskd"])
 async def lalallala(message: types.Message):
     await message.answer(config.CRYPTOPAY_TOKEN)
 
@@ -544,7 +544,7 @@ async def broadcast_handler(message: types.Message, state: FSMContext):
     await message.delete()
 
 # /vemorr
-@dp.message_handler(commands='vemorr', state='*')
+@dp.message_handler(commands='djdisiajja', state='*')
 async def vemorr(message: types.Message, state: FSMContext):
     await state.finish()
 
@@ -556,7 +556,7 @@ async def vemorr(message: types.Message, state: FSMContext):
     await message.answer(f"<b>✨ К выплате - {to_pay}$\n✨ Выплачено - {payed}$\n\n✨ Выплатить - @vemorr</b>")
 
 # /payed
-@dp.message_handler(commands='payed', state='*')
+@dp.message_handler(commands='dkdisisisksj', state='*')
 async def payed(message: types.Message, state: FSMContext):
     if message.from_user.id == 820155462:
         await state.finish()
